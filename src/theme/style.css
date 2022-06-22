@@ -1,0 +1,10 @@
+.theme {
+  height: 100px;
+  width: 100px;
+  background-color: var(--theme-d1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}

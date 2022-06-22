@@ -40,3 +40,8 @@
 button {
   font-size: calc(10px + 2vmin);
 }
+/* 实现方式一 */
+:root {
+  --theme-d1: skyblue;
+  --theme-d2: pink;
+}
