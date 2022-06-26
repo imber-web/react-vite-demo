@@ -2,6 +2,7 @@ import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
 import Theme from './theme/theme'
+import Infinite from './infinite/index'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
           </button>
         </p>
         <Theme />
+        <Infinite />
       </header>
     </div>
   )
