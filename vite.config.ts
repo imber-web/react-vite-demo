@@ -9,5 +9,8 @@ export default defineConfig({
     alias: {
       '@': path.join(__dirname, 'src')
     }
+  },
+  server: {
+    open: true
   }
 })
